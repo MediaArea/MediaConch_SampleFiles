@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ffprobe>
+    <streams>
+        <stream index="0" codec_name="ffv1" codec_long_name="FFmpeg video codec #1" codec_type="video" codec_time_base="1/1000" codec_tag_string="FFV1" codec_tag="0x31564646" width="320" height="240" coded_width="320" coded_height="240" has_b_frames="0" sample_aspect_ratio="1:1" display_aspect_ratio="4:3" pix_fmt="bgr0" level="-99" refs="1" r_frame_rate="25/1" avg_frame_rate="25/1" time_base="1/1000" start_pts="0" start_time="0.000000">
+            <disposition default="1" dub="0" original="0" comment="0" lyrics="0" karaoke="0" forced="0" hearing_impaired="0" visual_impaired="0" clean_effects="0" attached_pic="0"/>
+            <tag key="ENCODER" value="Lavc56.1.100 ffv1"/>
+        </stream>
+    </streams>
+
+    <format filename="/Users/erikpiil/MediaConch_temporarytestfiles/TestFiles/Legacy/SampleTestFiles/Matroska/ffv1_0.mkv" nb_streams="1" nb_programs="0" format_name="matroska,webm" format_long_name="Matroska / WebM" start_time="0.000000" duration="1.000000" size="108932" bit_rate="871456" probe_score="100">
+        <tag key="ENCODER" value="Lavf56.4.101"/>
+    </format>
+</ffprobe>
