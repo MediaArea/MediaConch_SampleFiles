@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy name="MKV-SAMPLE-RANGE-CLARITY">
+  <policy type="or" name="Video Sample Range is clarified?">
+    <rule name="Range data is stored?" scope="mmt" value="Segment/Tracks/TrackEntry/Video/Colour/Range/"/>
+    <rule name="Range data is not Unspecified?" scope="mmt" value="Segment/Tracks/TrackEntry/Video/Colour/Range/Data" operator="!=">o2</rule>
+  </policy>
+</policy>

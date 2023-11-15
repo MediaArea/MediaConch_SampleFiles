@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy name="MKV-COLOUR-PRIMARY-CLARITY">
+  <policy type="or" name="Video Colour Primary is clarified?">
+    <rule name="Colour Primary data is stored?" scope="mmt" value="Segment/Tracks/TrackEntry/Video/Colour/Primaries/"/>
+    <rule name="Colour Primary data is not Unspecified?" scope="mmt" value="Segment/Tracks/TrackEntry/Video/Colour/Primaries/Data" operator="!=">2</rule>
+  </policy>
+</policy>
