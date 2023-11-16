@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy name="MKV-V4">
+  <rule name="Matroska version 4?" value="Format_Version" tracktype="General" occurrence="*" operator="=">4</rule>
+</policy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy name="EBML-ELEM-START">
+  <rule name="EBML Element is at the start of the file?" scope="mmt" value="offset:m:172351395" operator="=">0</rule>
+</policy>
