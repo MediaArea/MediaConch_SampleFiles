@@ -1,0 +1,25 @@
+<policy type="and" name="Root">
+  <description>Test operators</description>
+  <policy type="and" name="Exists">
+    <rule name="Exists" value="Format" tracktype="General" operator="exists"/>
+    <rule name="Must not exist" value="INVALIDFIELD" tracktype="General" operator="must not exist"/>
+  </policy>
+  <policy type="and" name="Strings">
+    <rule name="Starts with" value="Format" tracktype="General" operator="starts with">Ma</rule>
+    <rule name="Must not start with" value="Format" tracktype="General" operator="must not start with">Og</rule>
+    <rule name="Is equal" value="Duration_String3" tracktype="General" operator="=">00:00:01.023</rule>
+    <rule name="Is not equal" value="Duration_String3" tracktype="General" operator="!=">00:00:01:00</rule>
+    <rule name="Is less than" value="Duration_String3" tracktype="General" operator="&lt;">00:00:02.000</rule>
+    <rule name="Is less or equal than" value="Duration_String3" tracktype="General" operator="&lt;=">00:00:01.023</rule>
+    <rule name="Is greater than" value="Duration_String3" tracktype="General" operator="&gt;">00:00:00.000</rule>
+    <rule name="Is greater or equal than" value="Duration_String3" tracktype="General" operator="&gt;=">00:00:01.023</rule>
+  </policy>
+  <policy type="and" name="Numeric">
+    <rule name="Is equal" value="Duration" tracktype="General" operator="=">1.023</rule>
+    <rule name="Is not equal" value="Duration" tracktype="General" operator="!=">1.024</rule>
+    <rule name="Is less than" value="Duration" tracktype="General" operator="&lt;">2.000</rule>
+    <rule name="Is less or equal than" value="Duration" tracktype="General" operator="&lt;=">1.023</rule>
+    <rule name="Is greater than" value="Duration" tracktype="General" operator="&gt;">1.000</rule>
+    <rule name="Is greater or equal than" value="Duration" tracktype="General" operator="&gt;=">1.023</rule>
+  </policy>
+</policy>

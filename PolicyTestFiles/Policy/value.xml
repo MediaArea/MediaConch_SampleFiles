@@ -1,0 +1,6 @@
+<policy type="and" name="Root">
+  <description>Test source type values</description>
+    <rule name="StreamOrder" value="StreamOrder" tracktype="Video" occurrence="1" operator="&lt;">
+      <source value="StreamOrder" tracktype="Audio"  occurrence="1"/>
+    </rule>
+</policy>
