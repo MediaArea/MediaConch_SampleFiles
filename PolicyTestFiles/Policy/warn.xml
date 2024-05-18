@@ -1,0 +1,9 @@
+<policy type="and" name="Root">
+  <description>Test warn level and level ascend</description>
+  <policy type="and" name="Pass">
+    <rule name="Format" value="Format" tracktype="General" operator="=">Matroska</rule>
+  </policy>
+  <policy type="and" name="Warn" level="warn">
+    <rule name="StreamOrder" value="StreamOrder" tracktype="Video" operator="=">0</rule>
+  </policy>
+</policy>

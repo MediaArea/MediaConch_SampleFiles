@@ -1,0 +1,6 @@
+<policy type="and" name="Root" level="info">
+  <description>Test level capping</description>
+  <policy type="and" name="Warn" level="warn">
+    <rule name="StreamOrder" value="StreamOrder" tracktype="Video" operator="=">0</rule>
+  </policy>
+</policy>

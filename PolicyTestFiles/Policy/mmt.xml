@@ -1,0 +1,4 @@
+<policy type="and" name="Root">
+  <description>Test MicroMediaTrace scope</description>
+    <rule name="MMT" scope="mmt" value="offset:m:172351395" operator="=">0</rule>
+</policy>
